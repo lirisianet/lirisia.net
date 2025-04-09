@@ -68,6 +68,8 @@
             padding-bottom: 2px;
             transition: all 0.3s;
             position: relative;
+            width: fit-content;
+            display: inline-block;
         }
         
         a:hover {
@@ -233,13 +235,16 @@
                     <div class="social-username email-container">
                         <a href="mailto:lilia@lirisia.com">lilia@lirisia.com</a>
                         <a href="mailto:lilia@lirisia.net">lilia@lirisia.net</a>
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                            <a href="mailto:lirisia@outlook.ie">lirisia@outlook.ie</a><span style="font-size: 0.8em; color: #888; margin-left: 5px;">(Git)</span>
+                        </div>
                     </div>
                 </div>
                 <div class="social-card">
                     <div class="social-icon"><i class="fab fa-github"></i></div>
                     <div class="social-name">GitHub</div>
                     <div class="social-username">
-                        <a href="https://github.com/lirisia" target="_blank">@lirisia</a>
+                        <a href="https://github.com/lirisianet" target="_blank">@lirisianet</a>
                     </div>
                 </div>
                 <div class="social-card">
